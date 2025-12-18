@@ -37,7 +37,6 @@ const getAllVehicles = async (req: Request, res: Response) => {
     try {
         const result = await vehicleServices.getAllVehicles()
 
-
         if (result.rows.length) {
             res.status(200).json({
                 success: true,
@@ -127,11 +126,6 @@ const DeleteVehicles = async (req: Request, res: Response) => {
 
 
 
-// const onUpdate = async (req: Request, res: Response) => {
-
-//     const result = await vehicleServices.onUpdate(req.params.id)
-
-// }
 
 
 export const vehiclesControllers = {
