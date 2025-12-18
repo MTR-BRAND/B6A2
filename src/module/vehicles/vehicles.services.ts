@@ -14,7 +14,7 @@ const getAllVehicles = async () => {
 }
 
 const getOneVehicles = async (id: any) => {
-    const result = await pool.query(`SELECT * FROM  vehicle WHERE id=$1`, [id])
+    const result = await pool.query(`SELECT * FROM vehicle WHERE id=$1`, [id])
     return result;
 }
 

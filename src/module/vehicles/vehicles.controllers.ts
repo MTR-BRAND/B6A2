@@ -68,7 +68,7 @@ const getOneVehicles = async (req: Request, res: Response) => {
         res.status(200).json({
             success: true,
             message: "vehicle retrieved successfully",
-            data: result.rows,
+            data: result.rows[0],
         });
     } catch (error) {
         res.status(500).json({
