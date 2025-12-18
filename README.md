@@ -3,7 +3,7 @@
 A backend REST API for managing vehicle rentals, users, and bookings with secure authentication and role-based authorization (Admin & Customer).
 
 ## Live URL
-Not deployed yet
+-> https://vrs-delta.vercel.app/
 
 ---
 
@@ -144,9 +144,9 @@ Not deployed yet
 
 ---
 
-**GitHub Repo: Your GitHub Repo Link**
+**GitHub Repo: https://github.com/MTR-BRAND/B6A2.git**
 <br>
-**Live Deployment: Your Live Deployment Link**
+**Live Deployment: https://vrs-delta.vercel.app/**
 
 ## Author
 **Arafat Raz**  
